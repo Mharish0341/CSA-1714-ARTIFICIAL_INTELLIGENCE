@@ -1,4 +1,4 @@
-"""from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
@@ -16,5 +16,5 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)"""
+print("Accuracy:", accuracy)
 print("Accuracy: 1.0")
