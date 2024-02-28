@@ -1,4 +1,3 @@
-print("maha")
 import math
 
 def minimax (curDepth, nodeIndex,
